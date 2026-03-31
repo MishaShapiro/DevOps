@@ -1,0 +1,6 @@
+{
+  "hostname": "mycontainer",
+  "process": {
+    "args": ["/bin/sh"]
+  }
+}
