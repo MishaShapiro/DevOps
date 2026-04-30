@@ -1,0 +1,12 @@
+[Unit]
+Description=Shop App
+After=network.target
+
+[Service]
+User=mikhail
+WorkingDirectory=/home/mikhail/DevOps/lab3/shop_app
+ExecStart=/usr/bin/python3 app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
